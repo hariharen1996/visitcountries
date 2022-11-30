@@ -1,0 +1,34 @@
+* {
+  list-style: none;
+}
+.country-img {
+  width: 250px;
+  margin-top: 10px;
+}
+
+.visitors-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  color: #f1f5f9;
+}
+
+.remove-btn {
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  padding: 6px 16px;
+  cursor: pointer;
+}
